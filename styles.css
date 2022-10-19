@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(45deg, #00eaff, white, #2e80e5);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 300px;
+    padding: 30px;
+    border: 2px groove #00eaff;
+}
+
+h2 {    
+    text-align: center;
+    font-family: 'Georgia', serif;
+    font-size: 24px;
+}
+
+.box {
+    margin-top: 10px;
+}
+
+input {
+    margin-top: 5px;
+    height: 20px;
+    font-size: 16px;
+    font-family: 'Georgia', serif;
+}
+
+#sign-in {
+    margin-top: 20px;
+    background: white;
+    display: inline-block;
+    padding: 10px;
+    background-image: linear-gradient(45deg, #00eaff, white, #2e80e5);
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+    box-shadow: 7px 8px 20px -14px rgba(0,0,0,0.5);
+}
+
+#sign-in:hover {
+    background: #00eaff;
+    color: white;
+}
