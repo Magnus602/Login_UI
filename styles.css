@@ -1,3 +1,4 @@
+/* Spiffy background */
 .container {
     display: flex;
     min-height: 100vh;
@@ -6,45 +7,58 @@
     background-image: linear-gradient(45deg, #00eaff, white, #2e80e5);
 }
 
+/* White/translucent box and border*/
 .form {
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.1);
     width: 300px;
     padding: 30px;
     border: 2px groove #00eaff;
-}
+    box-shadow: 7px 25px 20px -14px rgba(0,0,0,0.5);
+    }
 
+/* "Sign in"*/
 h2 {    
     text-align: center;
     font-family: 'Georgia', serif;
     font-size: 24px;
 }
 
+/* border around top*/
 .box {
     margin-top: 10px;
 }
 
+/* insert username and password */
 input {
     margin-top: 5px;
     height: 20px;
     font-size: 16px;
     font-family: 'Georgia', serif;
 }
-
+/* Contents within the form including button */
 #sign-in {
     margin-top: 20px;
-    background: white;
+    background: rgba(255, 255, 255, 255, 0.35);
     display: inline-block;
     padding: 10px;
     background-image: linear-gradient(45deg, #00eaff, white, #2e80e5);
     border-radius: 10px;
     color: black;
     text-align: center;
-    box-shadow: 7px 8px 20px -14px rgba(0,0,0,0.5);
+    box-shadow: 7px 25px 20px -14px rgba(0,0,0,0.5);
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+    font-family: 'Georgia', serif;
+    text-align: center;
 }
 
 #sign-in:hover {
-    background: #00eaff;
-    color: white;
+    background-image: linear-gradient(45deg, #2e80e5, white, #00eaff);
+    color: rgb(0, 0, 0);
 }
